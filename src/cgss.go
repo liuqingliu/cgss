@@ -145,7 +145,7 @@ func main() {
 
 	for {
 		fmt.Print("command> ")
-		//读取每行指令
+		//循环读取每行指令
 		b, _, _ := r.ReadLine()
 		line := string(b)
 		//分离参数为数组
