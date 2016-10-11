@@ -8,7 +8,7 @@ import (
 type EchoServer struct { //定义一个空结构体EchoServer（输出服务端）
 }
 
-func (server *EchoServer) Handle(requst string) string { //函数Handle是结构体server接口的处理函数，传递参数request，响应值string类型
+func (server *EchoServer) Handle(request string) string { //函数Handle是结构体server接口的处理函数，传递参数request，响应值string类型
 	return "ECHO:" + request
 }
 
